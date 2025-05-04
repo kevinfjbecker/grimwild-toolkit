@@ -1,0 +1,206 @@
+[
+    {
+        "background": "Charlatan",
+        "wises": [
+            "wise in social graces",
+            "spotting marks",
+            "timely misdirects"
+        ],
+        "alsoKnownAs": [
+            "spy",
+            "swindler"
+        ]
+    },
+    {
+        "background": "Clergy",
+        "wises": [
+            "wise in allegories",
+            "signs of sin",
+            "faiths of the world"
+        ],
+        "alsoKnownAs": [
+            "cultist",
+            "priest"
+        ]
+    },
+    {
+        "background": "Commoner",
+        "wises": [
+            "wise in local customs",
+            "practical wisdom",
+            "superstitions"
+        ],
+        "alsoKnownAs": [
+            "farmer",
+            "villager"
+        ]
+    },
+    {
+        "background": "Crafter",
+        "wises": [
+            "wise in crafting quality",
+            "trade contacts",
+            "wear and tear"
+        ],
+        "alsoKnownAs": [
+            "artisan",
+            "smith"
+        ]
+    },
+    {
+        "background": "Drifter",
+        "wises": [
+            "wise in chance meetings",
+            "faraway tales",
+            "lay of the land"
+        ],
+        "alsoKnownAs": [
+            "explorer",
+            "vagabond"
+        ]
+    },
+    {
+        "background": "Entertainer",
+        "wises": [
+            "wise in legends and tales",
+            "crowd behaviors",
+            "stage presence"
+        ],
+        "alsoKnownAs": [
+            "storyteller",
+            "minstrel"
+        ]
+    },
+    {
+        "background": "Eccentric",
+        "wises": [
+            "wise in hard truths",
+            "random facts",
+            "strange snacks"
+        ],
+        "alsoKnownAs": [
+            "hermit",
+            "recluse"
+        ]
+    },
+    {
+        "background": "Healer",
+        "wises": [
+            "wise in comfort foods",
+            "signs of ailment",
+            "herbal properties"
+        ],
+        "alsoKnownAs": [
+            "chirurgeon",
+            "herbalist"
+        ]
+    },
+    {
+        "background": "Hunter",
+        "wises": [
+            "wise in survival",
+            "tracks",
+            "wildlife behavior"
+        ],
+        "alsoKnownAs": [
+            "pathfinder",
+            "trapper"
+        ]
+    },
+    {
+        "background": "Mariner",
+        "wises": [
+            "wise in nautical lore",
+            "seafaring",
+            "weather patterns"
+        ],
+        "alsoKnownAs": [
+            "pirate",
+            "sailor"
+        ]
+    },
+    {
+        "background": "Mystic",
+        "wises": [
+            "wise in ancient prophecies",
+            "leylines",
+            "symbology"
+        ],
+        "alsoKnownAs": [
+            "occultist",
+            "seer"
+        ]
+    },
+    {
+        "background": "Noble",
+        "wises": [
+            "wise in diplomacy",
+            "influential contacts",
+            "luxuries"
+        ],
+        "alsoKnownAs": [
+            "aristocrat",
+            "diplomat"
+        ]
+    },
+    {
+        "background": "Ragamuffin",
+        "wises": [
+            "wise in hidden paths",
+            "rumors",
+            "street smarts"
+        ],
+        "alsoKnownAs": [
+            "cutpurse",
+            "urchin"
+        ]
+    },
+    {
+        "background": "Sage",
+        "wises": [
+            "wise in ancient histories",
+            "peoples of the world",
+            "philosophy"
+        ],
+        "alsoKnownAs": [
+            "lorekeeper",
+            "scholar"
+        ]
+    },
+    {
+        "background": "Scoundrel",
+        "wises": [
+            "wise in escape routes",
+            "signs of weakness",
+            "shady connections"
+        ],
+        "alsoKnownAs": [
+            "brigand",
+            "thief"
+        ]
+    },
+    {
+        "background": "Trader",
+        "wises": [
+            "wise in cultural tastes",
+            "people's desires",
+            "rare goods"
+        ],
+        "alsoKnownAs": [
+            "merchant",
+            "peddler"
+        ]
+    },
+    {
+        "background": "Warrior",
+        "wises": [
+            "wise in battle plans",
+            "military contacts",
+            "war stories"
+        ],
+        "alsoKnownAs": [
+            "sellsword",
+            "soldier"
+        ]
+    }
+]

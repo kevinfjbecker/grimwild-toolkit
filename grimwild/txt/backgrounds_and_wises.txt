@@ -1,0 +1,18 @@
+BACKGROUNDS & WISES Also known as...
+Charlatan, wise in social graces, spotting marks, and timely misdirects. spy, swindler
+Clergy , wise in allegories, signs of sin, and faiths of the world. cultist, priest
+Commoner , wise in local customs, practical wisdom, and superstitions. farmer, villager
+Crafter, wise in crafting quality, trade contacts, and wear and tear. artisan, smith
+Drifter , wise in chance meetings, faraway tales, and lay of the land. explorer, vagabond
+Entertainer , wise in legends and tales, crowd behaviors, and stage presence. storyteller, minstrel
+Eccentric , wise in hard truths, random facts, and strange snacks. hermit, recluse
+Healer, wise in comfort foods, signs of ailment, and herbal properties. chirurgeon, herbalist
+Hunter , wise in survival, tracks, and wildlife behavior. pathfinder, trapper
+Mariner , wise in nautical lore, seafaring, and weather patterns. pirate, sailor
+Mystic , wise in ancient prophecies, leylines, and symbology. occultist, seer
+Noble , wise in diplomacy, influential contacts, and luxuries. aristocrat, diplomat
+Ragamuffin , wise in hidden paths, rumors, and street smarts. cutpurse, urchin
+Sage , wise in ancient histories, peoples of the world, and philosophy. lorekeeper, scholar
+Scoundrel , wise in escape routes, signs of weakness, and shady connections. brigand, thief
+Trader, wise in cultural tastes, people's desires, and rare goods. merchant, peddler
+Warrior , wise in battle plans, military contacts, and war stories. sellsword, soldier
