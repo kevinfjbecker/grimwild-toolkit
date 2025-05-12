@@ -27,3 +27,5 @@ const output = linesSections
     })
 
 fs.writeFileSync('./grimwild/json/backgrounds_and_wises.json', JSON.stringify(output, null, 4))
+
+// todo: add some sample text output
