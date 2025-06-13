@@ -21,7 +21,10 @@ const partyConcepts = () =>
     return threeChoices.map(i => adventuring_party_concepts[i])
 }
 
-// todo: write to json
+fs.writeFileSync(
+    './grimwild/json/adventuring_party_concepts.json',
+    JSON.stringify(adventuring_party_concepts, null, 4)
+)
 
 const conceptStatement = (concepts) =>
     `The party are ${
