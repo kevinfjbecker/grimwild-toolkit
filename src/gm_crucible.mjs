@@ -29,7 +29,7 @@ gm_crucible_text.split('\n').forEach((word, i) =>
     gm_crucible[x][y].push(word)
 })
 
-
+// todo: write to json
 
 const d6 = () => Math.floor(Math.random() * 6) // 0 - 5
 

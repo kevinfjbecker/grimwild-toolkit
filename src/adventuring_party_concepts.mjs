@@ -21,6 +21,8 @@ const partyConcepts = () =>
     return threeChoices.map(i => adventuring_party_concepts[i])
 }
 
+// todo: write to json
+
 const conceptStatement = (concepts) =>
     `The party are ${
         concepts[0]
