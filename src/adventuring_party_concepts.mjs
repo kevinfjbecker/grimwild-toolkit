@@ -1,9 +1,8 @@
 import * as fs from 'fs'
+import { readTextLines } from './util/textLines.mjs'
 
-const adventuring_party_concepts = fs
-    .readFileSync('./grimwild/txt/adventuring_party_concepts.txt')
-    .toString()
-    .split('\n')
+const adventuring_party_concepts =
+    readTextLines('./grimwild/txt/adventuring_party_concepts.txt')
 
 const partyConcepts = () =>
 {

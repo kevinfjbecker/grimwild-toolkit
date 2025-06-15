@@ -1,12 +1,11 @@
 import * as fs from 'fs'
+import { readTextLines } from './util/textLines.mjs'
 
-const gm_crucible_text = fs
-    .readFileSync('./grimwild/txt/gm_crucible.txt')
-    .toString()
+const gm_crucible_lines = readTextLines('./grimwild/txt/gm_crucible.txt')
 
 const gm_crucible = [[], []]
 
-gm_crucible_text.split('\n').forEach((word, i) =>
+gm_crucible_lines.forEach((word, i) =>
 {
     const x = Math.floor(i / 6) % 2
     const y = Math.floor(i / 12)

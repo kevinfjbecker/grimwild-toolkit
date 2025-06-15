@@ -1,6 +1,11 @@
 import * as fs from 'fs'
+import { readTextLines } from './util/textLines.mjs'
 
-const lines = fs.readFileSync('./grimwild/txt/backgrounds_and_wises.txt').toString().split('\n').slice(1)
+const lines =
+    readTextLines('./grimwild/txt/backgrounds_and_wises.txt')
+    .slice(1)
+
+// console.log(lines) // debug
 
 const linesSections = lines.map(line => line.match(/(^\w+)(.+)\.(.+)/).slice(1, 4))
 
