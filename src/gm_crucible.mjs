@@ -28,7 +28,10 @@ gm_crucible_lines.forEach((word, i) =>
     gm_crucible[x][y].push(word)
 })
 
-// todo: write to json
+fs.writeFileSync(
+    './grimwild/json/gm_crucible.json',
+    JSON.stringify(gm_crucible, null, 4)
+)
 
 const d6 = () => Math.floor(Math.random() * 6) // 0 - 5
 

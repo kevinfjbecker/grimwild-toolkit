@@ -15,7 +15,10 @@ for(let k = 0; k < blocks.length; k++)
     crucible[blockMapping[k % 3]].push(blocks[k])
 }
 
-fs.writeFileSync('./grimwild/json/heritage_crucible.json', JSON.stringify(crucible, null, 4))
+fs.writeFileSync(
+    './grimwild/json/heritage_crucible.json',
+    JSON.stringify(crucible, null, 4)
+)
 
 const d6 = () => Math.floor(Math.random() * 6) // 0 - 5
 

@@ -17,6 +17,9 @@ for(let i = 0; i < blocks.length; i++)
     crucible[c(i)][p(i)].push(blocks[i])
 }
 
-fs.writeFileSync('./grimwild/json/exploration_crucibles.json', JSON.stringify(crucible, null, 4))
+fs.writeFileSync(
+    './grimwild/json/exploration_crucibles.json',
+    JSON.stringify(crucible, null, 4)
+)
 
 // todo: add some sample text output
