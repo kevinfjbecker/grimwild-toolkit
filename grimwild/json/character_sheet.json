@@ -1,0 +1,64 @@
+{
+    "name": "",
+    "player": "",
+    "distinctiveFeatures": "",
+    "brawn": {
+        "value": 0,
+        "mark": false
+    },
+    "agility": {
+        "value": 0,
+        "mark": false
+    },
+    "wits": {
+        "value": 0,
+        "mark": false
+    },
+    "presence": {
+        "value": 0,
+        "mark": false
+    },
+    "bloodied": false,
+    "rattled": false,
+    "dropped": "",
+    "conditions": "",
+    "notes": "",
+    "vex": "",
+    "story": 0,
+    "spark": 0,
+    "backgrounds": [
+        {
+            "background": "",
+            "wises": [
+                ""
+            ]
+        }
+    ],
+    "traits": {
+        "are": [
+            ""
+        ],
+        "areNot": ""
+    },
+    "desires": {
+        "want": [
+            ""
+        ],
+        "dont": ""
+    },
+    "bonds": [
+        {
+            "pc": "",
+            "bond": ""
+        }
+    ],
+    "coreTalent": {},
+    "talents": [
+        {}
+    ],
+    "storyArcs": {
+        "groupArc": "",
+        "characterArc": ""
+    },
+    "experience": 0
+}
