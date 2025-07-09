@@ -7,10 +7,16 @@
     <title>Crucibles</title>
     <style>
         .crucible {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-around;
-            margin: 20px 0;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(325px, 1fr));
+            margin: 10px auto 10px;
+            max-width: 650px;
+        }
+
+        .crucible-half {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            margin-bottom: 10px;
         }
     </style>
 </head>
@@ -18,155 +24,167 @@
 <body>
 
     <div class="crucible">
-        <div class="crucible-section">
-            <div class="crucible-section-entry">Vagrants</div>
-            <div class="crucible-section-entry">Riders</div>
-            <div class="crucible-section-entry">Gnomes</div>
-            <div class="crucible-section-entry">Dwarves</div>
-            <div class="crucible-section-entry">Nomads</div>
-            <div class="crucible-section-entry">Elves</div>
+        <div class="crucible-half">
+            <div class="crucible-section">
+                <div class="crucible-section-entry">Vagrants</div>
+                <div class="crucible-section-entry">Riders</div>
+                <div class="crucible-section-entry">Gnomes</div>
+                <div class="crucible-section-entry">Dwarves</div>
+                <div class="crucible-section-entry">Nomads</div>
+                <div class="crucible-section-entry">Elves</div>
+            </div>
+            <div class="crucible-section">
+                <div class="crucible-section-entry">Birdfolk</div>
+                <div class="crucible-section-entry">Clans</div>
+                <div class="crucible-section-entry">Pilgrims</div>
+                <div class="crucible-section-entry">Tieflings</div>
+                <div class="crucible-section-entry">Cityfolk</div>
+                <div class="crucible-section-entry">Orcs</div>
+            </div>
+            <div class="crucible-section">
+                <div class="crucible-section-entry">Wayfarers</div>
+                <div class="crucible-section-entry">Seafarers</div>
+                <div class="crucible-section-entry">Turtlefolk</div>
+                <div class="crucible-section-entry">Goliaths</div>
+                <div class="crucible-section-entry">Humans</div>
+                <div class="crucible-section-entry">Forestfolk</div>
+            </div>
         </div>
-        <div class="crucible-section">
-            <div class="crucible-section-entry">Birdfolk</div>
-            <div class="crucible-section-entry">Clans</div>
-            <div class="crucible-section-entry">Pilgrims</div>
-            <div class="crucible-section-entry">Tieflings</div>
-            <div class="crucible-section-entry">Cityfolk</div>
-            <div class="crucible-section-entry">Orcs</div>
-        </div>
-        <div class="crucible-section">
-            <div class="crucible-section-entry">Wayfarers</div>
-            <div class="crucible-section-entry">Seafarers</div>
-            <div class="crucible-section-entry">Turtlefolk</div>
-            <div class="crucible-section-entry">Goliaths</div>
-            <div class="crucible-section-entry">Humans</div>
-            <div class="crucible-section-entry">Forestfolk</div>
-        </div>
-        <div class="crucible-section">
-            <div class="crucible-section-entry">Goblins</div>
-            <div class="crucible-section-entry">Tribes</div>
-            <div class="crucible-section-entry">Citizens</div>
-            <div class="crucible-section-entry">Dragonborn</div>
-            <div class="crucible-section-entry">Halflings</div>
-            <div class="crucible-section-entry">Cavefolk</div>
-        </div>
-        <div class="crucible-section">
-            <div class="crucible-section-entry">Islanders</div>
-            <div class="crucible-section-entry">Keepers</div>
-            <div class="crucible-section-entry">Marauders</div>
-            <div class="crucible-section-entry">Tradesfolk</div>
-            <div class="crucible-section-entry">Merchants</div>
-            <div class="crucible-section-entry">Raiders</div>
-        </div>
-        <div class="crucible-section">
-            <div class="crucible-section-entry">Fisherfolk</div>
-            <div class="crucible-section-entry">Settlers</div>
-            <div class="crucible-section-entry">Carvers</div>
-            <div class="crucible-section-entry">Valleyfolk</div>
-            <div class="crucible-section-entry">Skywatchers</div>
-            <div class="crucible-section-entry">Outcasts</div>
-        </div>
-    </div>
-
-    <div class="crucible">
-        <div class="crucible-section">
-            <div class="crucible-section-entry">Twisted</div>
-            <div class="crucible-section-entry">Lush</div>
-            <div class="crucible-section-entry">Scorched</div>
-            <div class="crucible-section-entry">Rolling</div>
-            <div class="crucible-section-entry">Abyssal</div>
-            <div class="crucible-section-entry">Feral</div>
-        </div>
-        <div class="crucible-section">
-            <div class="crucible-section-entry">Steel</div>
-            <div class="crucible-section-entry">Floating</div>
-            <div class="crucible-section-entry">Echoing</div>
-            <div class="crucible-section-entry">Bountiful</div>
-            <div class="crucible-section-entry">Desolate</div>
-            <div class="crucible-section-entry">Serene</div>
-        </div>
-        <div class="crucible-section">
-            <div class="crucible-section-entry">Verdant</div>
-            <div class="crucible-section-entry">Crimson</div>
-            <div class="crucible-section-entry">Misty</div>
-            <div class="crucible-section-entry">Great</div>
-            <div class="crucible-section-entry">Rocky</div>
-            <div class="crucible-section-entry">Whispering</div>
-        </div>
-        <div class="crucible-section">
-            <div class="crucible-section-entry">Golden</div>
-            <div class="crucible-section-entry">Shattered</div>
-            <div class="crucible-section-entry">Glimmering</div>
-            <div class="crucible-section-entry">Sunken</div>
-            <div class="crucible-section-entry">Windswept</div>
-            <div class="crucible-section-entry">Grim</div>
-        </div>
-        <div class="crucible-section">
-            <div class="crucible-section-entry">Emerald</div>
-            <div class="crucible-section-entry">Haunted</div>
-            <div class="crucible-section-entry">Distant</div>
-            <div class="crucible-section-entry">Coastal</div>
-            <div class="crucible-section-entry">Howling</div>
-            <div class="crucible-section-entry">Prosperous</div>
-        </div>
-        <div class="crucible-section">
-            <div class="crucible-section-entry">Burning</div>
-            <div class="crucible-section-entry">Enchanted</div>
-            <div class="crucible-section-entry">Silent</div>
-            <div class="crucible-section-entry">Gloomy</div>
-            <div class="crucible-section-entry">Eternal</div>
-            <div class="crucible-section-entry">Restless</div>
+        <div class="crucible-half">
+            <div class="crucible-section">
+                <div class="crucible-section-entry">Goblins</div>
+                <div class="crucible-section-entry">Tribes</div>
+                <div class="crucible-section-entry">Citizens</div>
+                <div class="crucible-section-entry">Dragonborn</div>
+                <div class="crucible-section-entry">Halflings</div>
+                <div class="crucible-section-entry">Cavefolk</div>
+            </div>
+            <div class="crucible-section">
+                <div class="crucible-section-entry">Islanders</div>
+                <div class="crucible-section-entry">Keepers</div>
+                <div class="crucible-section-entry">Marauders</div>
+                <div class="crucible-section-entry">Tradesfolk</div>
+                <div class="crucible-section-entry">Merchants</div>
+                <div class="crucible-section-entry">Raiders</div>
+            </div>
+            <div class="crucible-section">
+                <div class="crucible-section-entry">Fisherfolk</div>
+                <div class="crucible-section-entry">Settlers</div>
+                <div class="crucible-section-entry">Carvers</div>
+                <div class="crucible-section-entry">Valleyfolk</div>
+                <div class="crucible-section-entry">Skywatchers</div>
+                <div class="crucible-section-entry">Outcasts</div>
+            </div>
         </div>
     </div>
 
     <div class="crucible">
-        <div class="crucible-section">
-            <div class="crucible-section-entry">Peaks</div>
-            <div class="crucible-section-entry">Kingdom</div>
-            <div class="crucible-section-entry">Desert</div>
-            <div class="crucible-section-entry">Plains</div>
-            <div class="crucible-section-entry">Sea</div>
-            <div class="crucible-section-entry">Glaciers</div>
+        <div class="crucible-half">
+            <div class="crucible-section">
+                <div class="crucible-section-entry">Twisted</div>
+                <div class="crucible-section-entry">Lush</div>
+                <div class="crucible-section-entry">Scorched</div>
+                <div class="crucible-section-entry">Rolling</div>
+                <div class="crucible-section-entry">Abyssal</div>
+                <div class="crucible-section-entry">Feral</div>
+            </div>
+            <div class="crucible-section">
+                <div class="crucible-section-entry">Steel</div>
+                <div class="crucible-section-entry">Floating</div>
+                <div class="crucible-section-entry">Echoing</div>
+                <div class="crucible-section-entry">Bountiful</div>
+                <div class="crucible-section-entry">Desolate</div>
+                <div class="crucible-section-entry">Serene</div>
+            </div>
+            <div class="crucible-section">
+                <div class="crucible-section-entry">Verdant</div>
+                <div class="crucible-section-entry">Crimson</div>
+                <div class="crucible-section-entry">Misty</div>
+                <div class="crucible-section-entry">Great</div>
+                <div class="crucible-section-entry">Rocky</div>
+                <div class="crucible-section-entry">Whispering</div>
+            </div>
         </div>
-        <div class="crucible-section">
-            <div class="crucible-section-entry">Confederacy</div>
-            <div class="crucible-section-entry">Wilds</div>
-            <div class="crucible-section-entry">Canyons</div>
-            <div class="crucible-section-entry">North</div>
-            <div class="crucible-section-entry">Meadows</div>
-            <div class="crucible-section-entry">Sands</div>
+        <div class="crucible-half">
+            <div class="crucible-section">
+                <div class="crucible-section-entry">Golden</div>
+                <div class="crucible-section-entry">Shattered</div>
+                <div class="crucible-section-entry">Glimmering</div>
+                <div class="crucible-section-entry">Sunken</div>
+                <div class="crucible-section-entry">Windswept</div>
+                <div class="crucible-section-entry">Grim</div>
+            </div>
+            <div class="crucible-section">
+                <div class="crucible-section-entry">Emerald</div>
+                <div class="crucible-section-entry">Haunted</div>
+                <div class="crucible-section-entry">Distant</div>
+                <div class="crucible-section-entry">Coastal</div>
+                <div class="crucible-section-entry">Howling</div>
+                <div class="crucible-section-entry">Prosperous</div>
+            </div>
+            <div class="crucible-section">
+                <div class="crucible-section-entry">Burning</div>
+                <div class="crucible-section-entry">Enchanted</div>
+                <div class="crucible-section-entry">Silent</div>
+                <div class="crucible-section-entry">Gloomy</div>
+                <div class="crucible-section-entry">Eternal</div>
+                <div class="crucible-section-entry">Restless</div>
+            </div>
         </div>
-        <div class="crucible-section">
-            <div class="crucible-section-entry">Fjords</div>
-            <div class="crucible-section-entry">Marsh</div>
-            <div class="crucible-section-entry">Highlands</div>
-            <div class="crucible-section-entry">Moors</div>
-            <div class="crucible-section-entry">Outposts</div>
-            <div class="crucible-section-entry">Wastelands</div>
+    </div>
+
+    <div class="crucible">
+        <div class="crucible-half">
+            <div class="crucible-section">
+                <div class="crucible-section-entry">Peaks</div>
+                <div class="crucible-section-entry">Kingdom</div>
+                <div class="crucible-section-entry">Desert</div>
+                <div class="crucible-section-entry">Plains</div>
+                <div class="crucible-section-entry">Sea</div>
+                <div class="crucible-section-entry">Glaciers</div>
+            </div>
+            <div class="crucible-section">
+                <div class="crucible-section-entry">Confederacy</div>
+                <div class="crucible-section-entry">Wilds</div>
+                <div class="crucible-section-entry">Canyons</div>
+                <div class="crucible-section-entry">North</div>
+                <div class="crucible-section-entry">Meadows</div>
+                <div class="crucible-section-entry">Sands</div>
+            </div>
+            <div class="crucible-section">
+                <div class="crucible-section-entry">Fjords</div>
+                <div class="crucible-section-entry">Marsh</div>
+                <div class="crucible-section-entry">Highlands</div>
+                <div class="crucible-section-entry">Moors</div>
+                <div class="crucible-section-entry">Outposts</div>
+                <div class="crucible-section-entry">Wastelands</div>
+            </div>
         </div>
-        <div class="crucible-section">
-            <div class="crucible-section-entry">Coast</div>
-            <div class="crucible-section-entry">Isles</div>
-            <div class="crucible-section-entry">Caverns</div>
-            <div class="crucible-section-entry">Ruins</div>
-            <div class="crucible-section-entry">Cliffs</div>
-            <div class="crucible-section-entry">Coalition</div>
-        </div>
-        <div class="crucible-section">
-            <div class="crucible-section-entry">Badlands</div>
-            <div class="crucible-section-entry">Thickets</div>
-            <div class="crucible-section-entry">Fenlands</div>
-            <div class="crucible-section-entry">Hollows</div>
-            <div class="crucible-section-entry">Boomtown</div>
-            <div class="crucible-section-entry">Blightlands</div>
-        </div>
-        <div class="crucible-section">
-            <div class="crucible-section-entry">Boglands</div>
-            <div class="crucible-section-entry">Jungletown</div>
-            <div class="crucible-section-entry">Borderlands</div>
-            <div class="crucible-section-entry">Underworld</div>
-            <div class="crucible-section-entry">Riverlands</div>
-            <div class="crucible-section-entry">Groves</div>
+        <div class="crucible-half">
+            <div class="crucible-section">
+                <div class="crucible-section-entry">Coast</div>
+                <div class="crucible-section-entry">Isles</div>
+                <div class="crucible-section-entry">Caverns</div>
+                <div class="crucible-section-entry">Ruins</div>
+                <div class="crucible-section-entry">Cliffs</div>
+                <div class="crucible-section-entry">Coalition</div>
+            </div>
+            <div class="crucible-section">
+                <div class="crucible-section-entry">Badlands</div>
+                <div class="crucible-section-entry">Thickets</div>
+                <div class="crucible-section-entry">Fenlands</div>
+                <div class="crucible-section-entry">Hollows</div>
+                <div class="crucible-section-entry">Boomtown</div>
+                <div class="crucible-section-entry">Blightlands</div>
+            </div>
+            <div class="crucible-section">
+                <div class="crucible-section-entry">Boglands</div>
+                <div class="crucible-section-entry">Jungletown</div>
+                <div class="crucible-section-entry">Borderlands</div>
+                <div class="crucible-section-entry">Underworld</div>
+                <div class="crucible-section-entry">Riverlands</div>
+                <div class="crucible-section-entry">Groves</div>
+            </div>
         </div>
     </div>
 
