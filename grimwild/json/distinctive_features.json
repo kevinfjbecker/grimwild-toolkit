@@ -1,6 +1,56 @@
 [
     [
         [
+            "upstart youth",
+            "experienced",
+            "sober",
+            "grizzled",
+            "eager youth",
+            "near the end"
+        ],
+        [
+            "all grown up",
+            "brashful youth",
+            "prime of life",
+            "old & leathery",
+            "fledgling",
+            "on borrowed time"
+        ],
+        [
+            "gray",
+            "wizened",
+            "young pup",
+            "adult",
+            "cagey old-timer",
+            "young & beautiful"
+        ],
+        [
+            "fresh faced",
+            "hale & hearty",
+            "over the hill",
+            "childlike",
+            "seasoned",
+            "distinguished"
+        ],
+        [
+            "greenhorn",
+            "vigorous",
+            "youthful",
+            "timeworn",
+            "ageless",
+            "doddering"
+        ],
+        [
+            "precocious",
+            "coming of age",
+            "withered",
+            "spry",
+            "sage",
+            "wrinkled"
+        ]
+    ],
+    [
+        [
             "ill-fitting",
             "loose-fitting",
             "outrageous",
@@ -47,56 +97,6 @@
             "strange",
             "practical",
             "secondhand"
-        ]
-    ],
-    [
-        [
-            "curvy",
-            "strapping",
-            "rail-thin",
-            "solid",
-            "willowy",
-            "lithe"
-        ],
-        [
-            "heavyset",
-            "gangly",
-            "broad",
-            "scrawny",
-            "sinewy",
-            "slender"
-        ],
-        [
-            "thick",
-            "giant",
-            "ripped",
-            "stocky",
-            "wiry",
-            "compact"
-        ],
-        [
-            "sturdy",
-            "lean",
-            "athletic",
-            "hard",
-            "bony",
-            "slim"
-        ],
-        [
-            "well-fed",
-            "long-legged",
-            "petite",
-            "fit",
-            "thin",
-            "towering"
-        ],
-        [
-            "lanky",
-            "flabby",
-            "muscular",
-            "ravaged",
-            "gaunt",
-            "sharp"
         ]
     ],
     [
@@ -151,6 +151,56 @@
     ],
     [
         [
+            "curvy",
+            "strapping",
+            "rail-thin",
+            "solid",
+            "willowy",
+            "lithe"
+        ],
+        [
+            "heavyset",
+            "gangly",
+            "broad",
+            "scrawny",
+            "sinewy",
+            "slender"
+        ],
+        [
+            "thick",
+            "giant",
+            "ripped",
+            "stocky",
+            "wiry",
+            "compact"
+        ],
+        [
+            "sturdy",
+            "lean",
+            "athletic",
+            "hard",
+            "bony",
+            "slim"
+        ],
+        [
+            "well-fed",
+            "long-legged",
+            "petite",
+            "fit",
+            "thin",
+            "towering"
+        ],
+        [
+            "lanky",
+            "flabby",
+            "muscular",
+            "ravaged",
+            "gaunt",
+            "sharp"
+        ]
+    ],
+    [
+        [
             "tormented",
             "haunted",
             "questioning",
@@ -197,56 +247,6 @@
             "weary",
             "bright",
             "unreadable"
-        ]
-    ],
-    [
-        [
-            "upstart youth",
-            "experienced",
-            "sober",
-            "grizzled",
-            "eager youth",
-            "near the end"
-        ],
-        [
-            "all grown up",
-            "brashful youth",
-            "prime of life",
-            "old & leathery",
-            "fledgling",
-            "on borrowed time"
-        ],
-        [
-            "gray",
-            "wizened",
-            "young pup",
-            "adult",
-            "cagey old-timer",
-            "young & beautiful"
-        ],
-        [
-            "fresh faced",
-            "hale & hearty",
-            "over the hill",
-            "childlike",
-            "seasoned",
-            "distinguished"
-        ],
-        [
-            "greenhorn",
-            "vigorous",
-            "youthful",
-            "timeworn",
-            "ageless",
-            "doddering"
-        ],
-        [
-            "precocious",
-            "coming of age",
-            "withered",
-            "spry",
-            "sage",
-            "wrinkled"
         ]
     ]
 ]
